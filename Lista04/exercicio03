@@ -1,0 +1,4 @@
+const numero = 3025
+const resultado = Math.pow(Math.trunc(numero / 100) + Math.trunc(numero %100), 2);
+if (numero == resultado){console.log ("O resultado "+ resultado + " então e verdadeiro ");}
+if (numero != resultado){console.log ("O resultado "+ resultado + " então e falso ");}

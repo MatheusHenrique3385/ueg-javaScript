@@ -1,0 +1,4 @@
+const numero = 15;
+const resto = numero%2;
+if(resto == 0){console.log("O numero " + "e Par");};
+if(resto != 0){console.log("O numero " + "e Impar");}

@@ -1,0 +1,21 @@
+const carro = 10000;
+const arCondicionado = 1750.00;
+const pinturaMetalica = 800.00;
+const vidroEletrico = 1200.00;
+const direcaoHidraulica = 2000.00;
+
+let valorFinal = 10000;
+
+if(arCondicionado == true);{
+    valorFinal += arCondicionado
+}
+if(pinturaMetalica == true);{
+    valorFinal += pinturaMetalica
+}
+if(vidroEletrico == true);{
+    valorFinal += vidroEletrico 
+}
+if(direcaoHidraulica == true);{
+    valorFinal += direcaoHidraulica 
+};
+ console.log("O valor do carro é: "+ valorFinal);

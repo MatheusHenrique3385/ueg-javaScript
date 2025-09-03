@@ -1,0 +1,9 @@
+const salario = 1414.00;
+
+if (salario <= 1412.00){
+let salarioReajustado = (salario *  (1 + 0.50))
+console.log("Salario reajustado: " + salarioReajustado);}
+
+if (salario > 1412.00){
+let salarioReajustado = (salario *  (1 + 0.40))
+console.log("Salario reajustado: " + salarioReajustado);}

@@ -1,0 +1,9 @@
+const numero = 14; 
+
+const raiz = Math.trunc(Math.sqrt(numero));
+
+if (Math.pow(raiz,2)==numero) {
+  console.log(`${numero} É um quadrado perfeito`);
+} else {
+  console.log(`O número ${numero} NÃO é um quadrado perfeito`);
+}

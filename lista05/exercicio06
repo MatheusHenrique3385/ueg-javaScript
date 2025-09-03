@@ -1,0 +1,21 @@
+const litrosCombustivel = 15;
+
+const alcool = 4.805;
+const diesel = 5.953;
+const gasolina = 6.565;
+
+console.log("1-alcool\n2-disel\n3-gasolina")
+
+let decisao = 2;
+
+if(decisao == 1){
+    let valorFinal = litrosCombustivel * alcool;
+    console.log ("O valor a ser pago é R$" + valorFinal.toFixed(2));
+}else if(decisao == 2){
+    let valorFinal = litrosCombustivel * diesel;
+    console.log ("O valor a ser pago é R$" + valorFinal.toFixed(2));
+}else if(decisao == 3){
+    let valorFinal = litrosCombustivel * gasolina;
+    console.log ("O valor a ser pago é R$" + valorFinal.toFixed(2));
+}
+
